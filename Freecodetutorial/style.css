@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color:white;
+}
+html{
+    font-size: 22px;
+}
+.nav li{display:inline-block;
+    text-align:center;
+    padding:30px;
+    
+}

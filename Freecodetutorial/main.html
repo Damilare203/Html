@@ -1,0 +1,133 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Damilare Adeoye">
+        <meta description="web page" content="This is my first html page without watching any tutorial">
+        <title>My First Web Page</title>
+        <link rel="icon" href="./html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+         <h1>Hello World!</h1>
+
+        <nav aria-label="primary-navigation">
+          <ul class="nav" >
+            <li>
+                <a href="#html"> How i learn HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Plannings</a>
+            </li>
+          </ul>
+        </nav>
+     </header>
+     <main>
+        <article id="html">
+              <h2>I'm ready to learm HTML</h2>
+              <p>This is my first web page</p>
+              <img src="./html_logo_300x300.png" alt="html5 logo" width="300" height="300">
+              <figure>
+                <figcaption>An Example of HTML5 code</figcaption>
+                <p>
+                    <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                </p>
+              </figure>
+
+              <h3>My Daily Schedule</h3>
+                  <p>This is my first web page</p>
+                      <br>......Let me tell you how i spend my day 
+                      <br>......I plan out my Schedule.
+                      <br>......I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/en-US/">MDN</a></abbr>
+        </article>
+
+        <article>
+                <h2>I'm ready to learm <em>HTML</em></h2>
+                <p>This is my first web page</p>
+
+     <h3>My Daily Schedule</h3>
+     <p>This is my first web page</p>
+       <br>......Let me tell you how i spend my day.
+       <br>......I plan out my <strong>Schedule</strong>.
+       <br>......I use resources from MDN.
+    <address>
+        3 Victor Iyoha Close<br/>
+        Off Remlek Bus stop<br/>
+        Badore,Ajah<br/>
+        Lagos state.
+    </address>
+    <hr>
+       <article>
+        <h2>Vacations</h2>
+        <section>
+            <h3>Carribbean Beach </h3>
+
+        </section>
+       </article>
+       <details>
+        <summary>This contains the list of things to do on vacation</summary>
+        <p> Visit Ibiza,Paris,Munich and London</p>
+       </details>
+    </main>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you</p>
+        <form action="https://httpbin.org.net" method="get">
+            <fieldset>
+                <legend>Contact Info</legend>
+               <label for="firstName">First Name:</label>
+               <input type="text" name="firstName" id="firstName" placeholder="Damilare" autocomplete="on" required autofocused>
+            </p>
+            <p>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Adeoye" autocomplete="on" required autofocused>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password"  id="password"  placeholder="your secret"  required>
+            </p>
+            <p>
+                <label for="phone">Phone :</label>
+                <input type="tel" name="phone" id="phone" placeholder="+23408000000000" required >
+            </p>
+            <p>
+                <label for="decade">Favourite Decade</label>
+                <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+            </p>
+            <!-- <p>
+                <label for="coffee">Favourite Coffee</label>
+                <select name="coffee" id="coffe">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffee">Iced Coffee</option>
+                    <option value="other">Others</option>
+                </select>
+            </p> -->
+        </fieldset>
+        ]
+        <fieldset>
+            <legend>What is your favourite food</legend>
+            <p>
+                <input type="radio" id="tacos" name="food" value="tacos">
+                <label for="tacos">Tacos</label>
+            </p>
+            <P>
+                <input type="radio" id="pizza" name="food" value="food">
+                <label for="pizza">Pizza</label>
+            </P>
+        </fieldset>
+        <br>
+        <button type="submit">Sbmit</button>
+        <button type="reset">Reset</button>
+        </form>
+
+    </article>
+
+    <footer>
+        <p>
+          &lt;&lt;&copy; Damilare Adeoye &gt;&gt;&gt;
+        </p>
+    </footer>
+    </body>
+    
+</html>
